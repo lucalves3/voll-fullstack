@@ -21,6 +21,16 @@ module.exports = {
         allowNull: false,
         type: Sequelize.INTEGER,
       },
+      email: {
+        allowNull: false,
+        type: Sequelize.STRING,
+        field: 'email',
+      },
+      password: {
+        allowNull: false,
+        type: Sequelize.STRING,
+        field: 'password',
+      },
     });
   },
 
